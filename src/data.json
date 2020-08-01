@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Capital Search",
+        "thumbnail": "./images/capitalcities.png",
+        "link": "https://cdjenks.github.io/CapitalSearch/"
+    },
+    {
+        "name": "Math Quiz",
+        "thumbnail": "./images/mathquiz.png",
+        "link": "https://cdjenks.github.io/Math-Quiz/"
+    },
+    {
+        "name": "Weather Dashboard",
+        "thumbnail": "./images/weatherdashboard.png",
+        "link": "https://cdjenks.github.io/weather-dashboard/"
+    },
+    {
+        "name": "Notes-with-Express",
+        "thumbnail": "./images/notes-with-express.png",
+        "link": "https://note-pad-cdjenks.herokuapp.com/"
+    },
+    {
+        "name": "Burgers Tracker",
+        "thumbnail": "./images/burgers-tracker.png",
+        "link": "https://burgers-tracker.herokuapp.com/"
+    },
+    {
+        "name": "TeamBuilder",
+        "thumbnail": "./images/teambuilder.png",
+        "link": "https://github.com/cdjenks/teambuilder"
+    }
+]
