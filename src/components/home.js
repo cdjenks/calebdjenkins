@@ -4,7 +4,7 @@ import "../styles/index.css";
 
 function Home() {
     return (
-        <div className="container">
+        <div className="container about-container">
 
             <div className="row content-main">
 

@@ -1,18 +1,23 @@
 html, body {
   background-color: rgb(87, 126, 77);
-  background-image: url("../images/grass.jpg");
+  background-image: url("../images/clear-water.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container {
   background-image: url("../images/pool.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .container {
   position: relative;
   min-height: 100vh;
   width: 100%;
-  min-height: 80%;
+  /* min-height: 95%; */
   margin: 0px;
   padding: 0px;
 }
@@ -23,29 +28,6 @@ html, body {
    color: white;
    font-weight: bold;
    text-shadow: 1px 2px black;    
-}
-
-.headshot {
-  border-radius: 50%;
-  max-width: 300px;
-  float: right;
-  filter: grayscale(100%);
-}
-
-.content-title {
-  color: rgb(31, 112, 42);
-  font-size: 44px;
-  font-weight: bolder;
-  text-shadow: 1px 1px silver;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-.bio-text {
-  font-size: 30px;
-  text-align: left;
-  color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
 }
 
 .nav-link {
@@ -59,23 +41,48 @@ html, body {
   background-image: linear-gradient(to bottom right, rgb(45, 57, 65), rgb(135, 196, 211));
   padding-top: 10px;
   min-width: 100%;
+  margin: 0;
 }
 
 .navbar-nav {
   float: right;
 }
 
+.headshot {
+  border-radius: 50%;
+  max-width: 300px;
+  float: right;
+  filter: grayscale(100%);
+}
+
+.content-title {
+  color: rgb(31, 112, 42);
+  font-size: 48px;
+  font-weight: bolder;
+  text-shadow: 1px 1px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.bio-text {
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
 .card {
   background-color: rgba(175, 175, 170, 0.6);
   padding: 30px;
-  margin-bottom: 60px;
-  margin-top: 20px;
+  margin-bottom: 200px;
+  margin-top: 50px;
 }
 
 .project-card {
   max-width: 500px;
   max-height: 380px;
   margin-left: 100px;
+  margin-bottom: 80px;
   float: left;
 }
 
@@ -85,9 +92,8 @@ p {
 
 .card-header {
   color: rgb(31, 112, 42);
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bolder;
-  text-shadow: 1px 1px silver;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -98,10 +104,10 @@ p {
 .page-footer {
   background-color: rgb(202, 63, 91); 
   height: 50px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   min-width: 100%;
-  margin-top: 20px;
+  margin-top: 0;
   clear: both;
 }
 
