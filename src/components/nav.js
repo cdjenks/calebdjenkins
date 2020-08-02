@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/index.css";
@@ -9,14 +8,12 @@ function Nav() {
     return (
         <nav className="navbar">
 
-            <div className="col-md-1"></div>
-
             <div className="col-md-7">
                 <h1 className="navbar-heading h1-cj">Caleb Jenkins</h1>
             </div>
 
-            <div className="collapse navbar-collapse col-md-4" id="navbarNavAltMarkup">
-                <div className="navbar-nav ml-auto">
+            <div className="navbar-collapse navbar-nav col-md-4" id="navbarNavAltMarkup">
+                <div className="ml-auto">
                     <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
                         Home
                     </Link>
@@ -39,46 +36,4 @@ function Nav() {
     )
 };
 
-=======
-import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import "../styles/index.css";
-
-function Nav() {
-
-    const location = useLocation();
-    return (
-        <nav className="navbar">
-
-            <div className="col-md-1"></div>
-
-            <div className="col-md-7">
-                <h1 className="navbar-heading h1-cj">Caleb Jenkins</h1>
-            </div>
-
-            <div className="collapse navbar-collapse col-md-4" id="navbarNavAltMarkup">
-                <div className="navbar-nav ml-auto">
-                    <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                        Home
-                    </Link>
-                    <Link
-                        to="/portfolio"
-                        className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-                    >
-                        Portfolio
-                    </Link>
-                    <Link
-                        to="/contact"
-                        className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                    >
-                        Contact
-                    </Link>
-                </div>
-            </div>
-
-        </nav>
-    )
-};
-
->>>>>>> dd918ca40d8fc980685dae4920e015290088602d
 export default Nav;

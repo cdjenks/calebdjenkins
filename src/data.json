@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
     {
         "name": "Capital Search",
@@ -30,37 +29,4 @@
         "thumbnail": "./images/teambuilder.png",
         "link": "https://github.com/cdjenks/teambuilder"
     }
-=======
-[
-    {
-        "name": "Capital Search",
-        "thumbnail": "./images/capitalcities.PNG",
-        "link": "https://cdjenks.github.io/CapitalSearch/"
-    },
-    {
-        "name": "Math Quiz",
-        "thumbnail": "./images/mathquiz.PNG",
-        "link": "https://cdjenks.github.io/Math-Quiz/"
-    },
-    {
-        "name": "Weather Dashboard",
-        "thumbnail": "./images/weatherdashboard.PNG",
-        "link": "https://cdjenks.github.io/weather-dashboard/"
-    },
-    {
-        "name": "Notes-with-Express",
-        "thumbnail": "./images/notes-with-express.png",
-        "link": "https://note-pad-cdjenks.herokuapp.com/"
-    },
-    {
-        "name": "Burgers Tracker",
-        "thumbnail": "./images/burgers-tracker.png",
-        "link": "https://burgers-tracker.herokuapp.com/"
-    },
-    {
-        "name": "TeamBuilder",
-        "thumbnail": "./images/teambuilder.png",
-        "link": "https://github.com/cdjenks/teambuilder"
-    }
->>>>>>> dd918ca40d8fc980685dae4920e015290088602d
 ]
