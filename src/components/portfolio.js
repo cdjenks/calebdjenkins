@@ -1,12 +1,23 @@
 import React from "react";
-import Layout from "./layout.js"
+import ProjectCard from "./projectCard.js"
 import ProjectData from "../data.json"
+import "../styles/index.css";
 
+function Portfolio() {
 
-function App() {
-    return (<Layout>
-        {DataView.map}
-    </Layout>);
+    return (
+        <div>
+            {ProjectData.map(project => {
+                return <ProjectCard
+                    name={project.name}
+                    thumbnail={project.thumbnail}
+                    link={project.link}
+                />
+            })
+            }
+        </div>
+    )
+
 }
 
-export default App;
+export default Portfolio;

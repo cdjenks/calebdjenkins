@@ -1,17 +1,17 @@
 [
     {
         "name": "Capital Search",
-        "thumbnail": "./images/capitalcities.png",
+        "thumbnail": "./images/capitalcities.PNG",
         "link": "https://cdjenks.github.io/CapitalSearch/"
     },
     {
         "name": "Math Quiz",
-        "thumbnail": "./images/mathquiz.png",
+        "thumbnail": "./images/mathquiz.PNG",
         "link": "https://cdjenks.github.io/Math-Quiz/"
     },
     {
         "name": "Weather Dashboard",
-        "thumbnail": "./images/weatherdashboard.png",
+        "thumbnail": "./images/weatherdashboard.PNG",
         "link": "https://cdjenks.github.io/weather-dashboard/"
     },
     {

@@ -1,6 +1,7 @@
 html, body {
   background-color: rgb(87, 126, 77);
   background-image: url("../images/grass.jpg");
+  background-image: url("../images/pool.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,8 +17,8 @@ html, body {
   padding: 0px;
 }
 
-.h1-cj {
-   font-size: 46px;
+.navbar-heading {
+   font-size: 70px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color: white;
    font-weight: bold;
@@ -28,11 +29,12 @@ html, body {
   border-radius: 50%;
   max-width: 300px;
   float: right;
+  filter: grayscale(100%);
 }
 
 .content-title {
   color: rgb(31, 112, 42);
-  font-size: 38px;
+  font-size: 44px;
   font-weight: bolder;
   text-shadow: 1px 1px silver;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -54,23 +56,45 @@ html, body {
 
 .nav-link {
   font-size: 36px;
-  padding-top: 60px;
   margin-right: 20px;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  background-image: linear-gradient(to bottom right, rgb(45, 57, 65), rgb(188, 190, 187));
+  background-image: linear-gradient(to bottom right, rgb(45, 57, 65), rgb(135, 196, 211));
   padding-top: 10px;
   min-width: 100%;
 }
 
 .card {
-  background-color: rgb(168, 159, 159, 0.6);
+  background-color: rgba(175, 175, 170, 0.6);
   padding: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-top: 20px;
+}
+
+.project-card {
+  max-width: 500px;
+  max-height: 380px;
+  margin-left: 100px;
+  float: left;
+}
+
+p {
+  color: white;
+}
+
+.card-header {
+  color: rgb(31, 112, 42);
+  font-size: 28px;
+  font-weight: bolder;
+  text-shadow: 1px 1px silver;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.app-screenshot {
+  max-width: 400px;
 }
 
 .page-footer {
@@ -80,6 +104,7 @@ html, body {
   bottom: 0;
   min-width: 100%;
   margin-top: 20px;
+  clear: both;
 }
 
 .footer-text {
