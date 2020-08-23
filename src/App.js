@@ -10,7 +10,7 @@ import { BrowserRouter as HashRouter, Route } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename="/react_portfolio">
         <div>
           <Nav />
           <Route exact path="/" component={Home} />

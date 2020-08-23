@@ -15,7 +15,7 @@ function Nav() {
             <div className="navbar-collapse navbar-nav col-md-4" id="navbarNavAltMarkup">
                 <div className="ml-auto">
                     <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                        Home
+                        About
                     </Link>
                     <Link
                         to="/portfolio"
